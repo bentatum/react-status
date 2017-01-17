@@ -1,0 +1,42 @@
+{
+  "name": "react-status",
+  "description": "A little component that indicates the status of your form.",
+  "version": "0.0.1",
+  "author": "bentatum <bentatum@me.com>",
+  "bugs": {
+    "url": "https://github.com/bentatum/react-status/issues"
+  },
+  "devDependencies": {
+    "standard": "*",
+    "tap-spec": "^4.0.2",
+    "tape": "^4.0.0"
+  },
+  "homepage": "https://github.com/bentatum/react-status",
+  "keywords": [
+    "ajax",
+    "await",
+    "react",
+    "status"
+  ],
+  "license": "ISC",
+  "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bentatum/react-status.git"
+  },
+  "scripts": {
+    "build": "babel -d dist/ lib/",
+    "prepublish": "npm run build"
+  },
+  "dependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-stage-0": "^6.16.0"
+  },
+  "babel": {
+    "presets": [
+      "es2015",
+      "stage-0"
+    ]
+  }
+}
